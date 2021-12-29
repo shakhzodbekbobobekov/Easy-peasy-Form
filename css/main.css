@@ -1,0 +1,74 @@
+/* defoult styles */
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.5rem;
+    margin-top: 40px;
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.container__area form input {
+    border: none;
+    border-bottom: 1px solid #909090;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    margin-top: 20px;
+}
+
+.btns {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btns .btnSubmit, 
+.btns .btnCanCel {
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0.5rem;
+    border: none;
+    color: #fff;
+}
+
+.btns .btnSubmit {
+    background-color: rgb( 0, 252, 76 );
+}
+
+.btns .btnCanCel {
+    background-color: rgb(209, 43, 14);
+    margin-left: 10px;
+}
+
+.container__text {
+    width: 100%;
+    border: 1px solid #909090;
+    border-top: none;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.messege {
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+    50% {
+        transform: translateX(250px);
+    }
+}
