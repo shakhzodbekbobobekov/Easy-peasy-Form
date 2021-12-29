@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="uz">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title> Easy-peasy || form</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Easy-peasy || form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><code> EASY-PEASY CONTACT FORM 😊 </code></h1>
+      <br />
+      <div class="container__area">
+        <form action="#">
 
+          <input
+            type="text"
+            name="fName"
+            id="fName"
+            placeholder="type your name..."
+            autocomplete="off"
+          />
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="type your age..."
+            autocomplete="off"
+          />
+          <input
+            type="text"
+            name="isMarried"
+            id="isMarried"
+            placeholder="type your married 👏 (yes/no) ..."
+            autocomplete="off"
+          />
+
+          <div class="btns">
+              <button type="text" class="btnSubmit">SUBMIT</button>
+              <button type="reset" class="btnCansel">CANSEL</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="container__text">
+        <p class="fName"></p>
+        <p class="age"></p>
+        <p class="isMarried"></p>
+      </div>
+    </div>
+    <p class="messege"></p>
     <script src="./js/app.js"></script>
-</body>
+  </body>
 </html>
