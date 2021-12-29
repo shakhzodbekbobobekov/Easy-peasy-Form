@@ -35,7 +35,7 @@ body {
 }
 
 .btns .btnSubmit, 
-.btns .btnCanCel {
+.btns .btnCancel {
     border-radius: 2px;
     cursor: pointer;
     font-size: 16px;
@@ -48,7 +48,7 @@ body {
     background-color: rgb( 0, 252, 76 );
 }
 
-.btns .btnCanCel {
+.btns .btnCancel {
     background-color: rgb(209, 43, 14);
     margin-left: 10px;
 }
@@ -71,4 +71,10 @@ body {
     50% {
         transform: translateX(250px);
     }
+}
+
+.container__text p {
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: monospace;
 }

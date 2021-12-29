@@ -14,5 +14,21 @@ const isMarriedText = document.querySelector('.isMarried')
 
 //Event Lesteners
 fName.addEventListener( 'input', function(e) {
-    fNameText.innerHTML = `📝 Name: ${e.target.value}`;
+    fNameText.innerHTML = `📝Name: ${e.target.value}`;
+})
+
+age.addEventListener( 'input', function(e){
+    ageText.innerHTML = `🧐Age: ${e.target.value}`
+})
+
+isMarried.addEventListener( 'input', function(e){
+    isMarriedText.innerHTML = `😅 isMarried: ${e.target.value}`
+})
+
+btnSubmit.addEventListener('click', function(){
+    message.innerHTML = 'Succesful send! ✌'
+})
+
+btnCancel.addEventListener('click', function(){
+    message.innerHTML = 'Unsuccesful send! Try again 😥'
 })
